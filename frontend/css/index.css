@@ -1,0 +1,97 @@
+body{
+    padding-left: 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    height: 56px;
+}
+
+#content{
+    height: 28px;
+    width: 110px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(112, 41, 179);
+    margin-left: 90px;
+}
+
+#search{
+    height: 28px;
+    width: 190px;
+    font-size: 12px;
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#menu{
+    position: absolute;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 210px;
+}
+
+#menu button{
+    border:0;
+    background-color: transparent;
+}
+
+#titles{
+    display: flex;
+    align-items: center;
+}
+#titles button{
+    border:0;
+    border-radius: 90px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(241, 233, 0);
+    font-weight: bolder;
+    color: white;
+}
+
+#popularesCards {
+    width: 80%; /* Defina a largura desejada para o carrossel */
+    overflow: hidden; /* Esconde os cartões que transbordam a largura */
+    white-space: nowrap; /* Evita que os cartões quebrem em várias linhas */
+}
+.card {
+    display: inline-block; /* Exibe os cartões em uma linha horizontal */
+    width: 250px; /* Defina a largura dos cartões */
+    margin-right: 10px; /* Espaçamento entre os cartões */
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(234, 234, 234);
+}
+#imageCard{
+    width: 100%;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pass{
+    border: 0;
+    background-color:blueviolet;
+    height: 35px;
+    width:35px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
